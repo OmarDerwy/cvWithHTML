@@ -62,10 +62,15 @@ section hr{
 }
 section ul.heading{
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom:4px;
   padding: 0px;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
+}
+section ul{
+  margin-top:10px;
 }
 @media print{
   @page {
@@ -74,7 +79,7 @@ section ul.heading{
   }
 
   .page {
-    box-shadow: 0;
+    box-shadow: 0 0 0 0;
     margin: 0;
   }
   body{
