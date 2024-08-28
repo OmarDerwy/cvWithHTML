@@ -52,7 +52,19 @@ header nav ul *{
   display: flex;
   float: left;
 }
-
+section h3{
+  margin-bottom: 0;
+}
+section hr{
+  margin-top: 2px;
+}
+section ul.heading{
+  list-style-type: none;
+  padding: 0px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
 @media print{
   @page {
     margin: 0;
