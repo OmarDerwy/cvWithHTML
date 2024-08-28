@@ -46,11 +46,13 @@ header nav ul{
   padding: 0px;
   display: flex;
   justify-content: space-between;
-
 }
 header nav ul *{
   display: flex;
   float: left;
+}
+header i{
+  margin-right: 2px;
 }
 section h3{
   margin-bottom: 0;
